@@ -1,0 +1,15 @@
+[2025-06-27 11:14:45] 📥 Dados brutos recebidos: {"produto_id":"769","variacoes":{"0":[{"item":"2"}]},"quantidade":1}
+[2025-06-27 11:14:45] 📊 Dados decodificados: {"produto_id":"769","variacoes":[[{"item":"2"}]],"quantidade":1}
+[2025-06-27 11:14:45] Descontando estoque - Produto: 769, Quantidade: 1
+[2025-06-27 11:14:45] 🎯 Variações selecionadas: [[{"item":"2"}]]
+[2025-06-27 11:14:45] 🔄 Processando grupo 0
+[2025-06-27 11:14:45] 🔍 Procurando item 2 no grupo 0
+[2025-06-27 11:14:45] 🔍 Item encontrado - Key: 2, ItemIndex: 2
+[2025-06-27 11:14:45] 📊 Quantidade atual decodificada: 8
+[2025-06-27 11:14:45] Descontando estoque: Grupo 0, Item 2, 8 ➝ 7 (-1)
+[2025-06-27 11:14:45] Atualizado: Grupo 0, Item 2, 8 ➝ 7
+[2025-06-27 11:14:45] Sucesso: 1 variações atualizadas
+[2025-06-28 05:46:09] 📥 Dados brutos recebidos: 
+[2025-06-28 05:46:09] 📊 Dados decodificados: null
+[2025-06-28 05:46:09] ❌ Dados incompletos - produto_id: MISSING, variacoes: MISSING, quantidade: MISSING
+[2025-06-28 05:46:09] Erro: Dados incompletos.

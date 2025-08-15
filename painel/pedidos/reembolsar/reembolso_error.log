@@ -1,0 +1,2429 @@
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c346e6658e7456ad17b4d6a99d190cc9
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 119
+        )
+
+)
+
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c346e6658e7456ad17b4d6a99d190cc9
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 119
+        )
+
+)
+
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 503*
+------
+25/06/2025 às 16:32
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Rua José Moura Lins,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*2 x* #REF-769 Hambúrguer de Bacon Top
+Adicionais: Batata Frita
+																					
+																					(+ R$ 5,00) (2x) (+ R$ 10,00).
+*Valor:* R$ 69,80
+
+------
+*Subtotal:* R$ 69,80
+*Entrega:* Rua José Moura Lins
+------
+
+*Frete:* R$ 0
+*Total:* R$ 69,80
+------
+
+https://shopburger.digitavitrine.com.br
+
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+2) para produto ID 769
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] Variante encontrada no comprovante: Nome='Batata Frita', Qtd=2
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante devolvida: 0/1 (+2)
+[25-Jun-2025 17:12:54 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variantes reembolsadas para produto ID 769
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c346e6658e7456ad17b4d6a99d190cc9
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 119
+        )
+
+)
+
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c346e6658e7456ad17b4d6a99d190cc9
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 119
+        )
+
+)
+
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 504*
+------
+25/06/2025 às 17:15
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+(88) 99445-1891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: Apartamento,
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*3 x* #REF-769 Hambúrguer de Bacon Top
+Adicionais: Bacon 100g
+																					
+																					(+ R$ 2,00) (1x) (+ R$ 2,00).
+Adicionais: Batata Frita
+																					
+																					(+ R$ 5,00) (2x) (+ R$ 10,00).
+*Valor:* R$ 101,70
+
+------
+*Subtotal:* R$ 101,70
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 0
+*Total:* R$ 101,70
+------
+
+https://shopburger.digitavitrine.com.br
+
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+3) para produto ID 769
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] Variante encontrada no comprovante: Nome='Bacon 100g', Qtd=1
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] Variante encontrada no comprovante: Nome='Batata Frita', Qtd=2
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante devolvida: 0/0 (+1)
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante devolvida: 0/1 (+2)
+[25-Jun-2025 17:15:32 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variantes reembolsadas para produto ID 769
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => ea7f22537d58753dd1444f0d7b253ba3
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 119
+        )
+
+)
+
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => ea7f22537d58753dd1444f0d7b253ba3
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 119
+        )
+
+)
+
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 506*
+------
+25/06/2025 às 18:38
+------
+
+*Nome:* 
+Jubei Caninde de Souza 
+
+*CPF:* 
+Não informado
+
+*Email:* 
+Não informado
+
+*Whatsapp:* 
+(31) 97532-5564 
+
+*Forma de pagamento:* 
+Enviar Maquininha - Bandeira:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+Adicionais: Bacon 100g
+																					
+																					(+ R$ 2,00) (1x) (+ R$ 2,00).
+*Valor:* R$ 31,90
+
+------
+*Subtotal:* R$ 31,90
+*Entrega:* Combinar Via Whatsapp
+------
+
+*Frete:* R$ 0
+*Total:* R$ 31,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+1) para produto ID 769
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] Variante encontrada no comprovante: Nome='Bacon 100g', Qtd=1
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante devolvida: 0/0 (+1)
+[25-Jun-2025 18:41:33 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variantes reembolsadas para produto ID 769
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Tentando buscar comprovante para Pedido ID: 526, Estabelecimento ID: 186
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Número de linhas encontradas para comprovante: 1
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Dados do pedido original (antes da verificação de comprovante): Array
+(
+    [comprovante] => *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 526*
+------
+27/06/2025 às 10:50
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+(88) 99445-1891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: Casa ,
+
+*Forma de pagamento:* 
+Enviar Maquininha - Bandeira: 100 
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  G.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* éFácil
+------
+
+*Frete:* R$ 1330.32
+*Total:* R$ 1.360,22
+------
+
+https://shopburger.digitavitrine.com.br
+
+)
+
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Status do pedido ID: 526 atualizado para 7 com sucesso.
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 526*
+------
+27/06/2025 às 10:50
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+(88) 99445-1891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: Casa ,
+
+*Forma de pagamento:* 
+Enviar Maquininha - Bandeira: 100 
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  G.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* éFácil
+------
+
+*Frete:* R$ 1330.32
+*Total:* R$ 1.360,22
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Nome do cliente extraído: Silva
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] WhatsApp do cliente extraído: (88) 99445-1891
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Matches encontrados pela regex: Array
+(
+    [0] => Array
+        (
+            [0] => *1 x* #REF-769
+            [1] => 1
+            [2] => 769
+        )
+
+)
+
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Item extraído: Quantidade = 1, Ref (do comprovante) = 769, Ref (para consulta DB) = REF-769
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] SQL para buscar produto: SELECT id, estoque, posicao FROM produtos WHERE ref = 'REF-769' AND rel_estabelecimentos_id = '186'
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Número de linhas encontradas para produto (ref: REF-769, eid: 186): 1
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Info do produto encontrado (ref: REF-769): Array
+(
+    [id] => 769
+    [estoque] => 2
+    [posicao] => 5
+)
+
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Produto 769 (ref: REF-769) com estoque '2'. Estoque atual (posicao): 5. Atualizando estoque para adicionar: 1
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] SQL para atualizar estoque: UPDATE produtos SET posicao = posicao + '1' WHERE id = '769'
+[27-Jun-2025 10:50:37 America/Sao_Paulo] [REEMBOLSO DEBUG] Estoque para produto ID 769 atualizado com sucesso. Linhas afetadas: 1
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Tentando buscar comprovante para Pedido ID: 527, Estabelecimento ID: 186
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Número de linhas encontradas para comprovante: 1
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Dados do pedido original (antes da verificação de comprovante): Array
+(
+    [comprovante] => *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 527*
+------
+27/06/2025 às 10:51
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: Casa ,
+
+*Forma de pagamento:* 
+Dinheiro - Troco para: 100 
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 0
+*Total:* R$ 29,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+)
+
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Status do pedido ID: 527 atualizado para 7 com sucesso.
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 527*
+------
+27/06/2025 às 10:51
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: Casa ,
+
+*Forma de pagamento:* 
+Dinheiro - Troco para: 100 
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 0
+*Total:* R$ 29,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Nome do cliente extraído: Silva
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] WhatsApp do cliente extraído: 88994451891
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Matches encontrados pela regex: Array
+(
+    [0] => Array
+        (
+            [0] => *1 x* #REF-769
+            [1] => 1
+            [2] => 769
+        )
+
+)
+
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Item extraído: Quantidade = 1, Ref (do comprovante) = 769, Ref (para consulta DB) = REF-769
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] SQL para buscar produto: SELECT id, estoque, posicao FROM produtos WHERE ref = 'REF-769' AND rel_estabelecimentos_id = '186'
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Número de linhas encontradas para produto (ref: REF-769, eid: 186): 1
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Info do produto encontrado (ref: REF-769): Array
+(
+    [id] => 769
+    [estoque] => 2
+    [posicao] => 5
+)
+
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Produto 769 (ref: REF-769) com estoque '2'. Estoque atual (posicao): 5. Atualizando estoque para adicionar: 1
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] SQL para atualizar estoque: UPDATE produtos SET posicao = posicao + '1' WHERE id = '769'
+[27-Jun-2025 10:51:41 America/Sao_Paulo] [REEMBOLSO DEBUG] Estoque para produto ID 769 atualizado com sucesso. Linhas afetadas: 1
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Tentando buscar comprovante para Pedido ID: 530, Estabelecimento ID: 186
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Número de linhas encontradas para comprovante: 1
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Dados do pedido original (antes da verificação de comprovante): Array
+(
+    [comprovante] => *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 530*
+------
+27/06/2025 às 12:34
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+(88) 99445-1891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 39,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+)
+
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Status do pedido ID: 530 atualizado para 7 com sucesso.
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 530*
+------
+27/06/2025 às 12:34
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+(88) 99445-1891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 39,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Nome do cliente extraído: Silva
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] WhatsApp do cliente extraído: (88) 99445-1891
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Matches encontrados pela regex: Array
+(
+    [0] => Array
+        (
+            [0] => *1 x* #REF-769
+            [1] => 1
+            [2] => 769
+        )
+
+)
+
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Item extraído: Quantidade = 1, Ref (do comprovante) = 769, Ref (para consulta DB) = REF-769
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] SQL para buscar produto: SELECT id, estoque, posicao FROM produtos WHERE ref = 'REF-769' AND rel_estabelecimentos_id = '186'
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Número de linhas encontradas para produto (ref: REF-769, eid: 186): 1
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Info do produto encontrado (ref: REF-769): Array
+(
+    [id] => 769
+    [estoque] => 2
+    [posicao] => 8
+)
+
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Produto 769 (ref: REF-769) com estoque '2'. Estoque atual (posicao): 8. Atualizando estoque para adicionar: 1
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] SQL para atualizar estoque: UPDATE produtos SET posicao = posicao + '1' WHERE id = '769'
+[27-Jun-2025 12:34:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Estoque para produto ID 769 atualizado com sucesso. Linhas afetadas: 1
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Tentando buscar comprovante para Pedido ID: 529, Estabelecimento ID: 186
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Número de linhas encontradas para comprovante: 1
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Dados do pedido original (antes da verificação de comprovante): Array
+(
+    [comprovante] => *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 529*
+------
+27/06/2025 às 12:33
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  M.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 0
+*Total:* R$ 29,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+)
+
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Status do pedido ID: 529 atualizado para 7 com sucesso.
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 529*
+------
+27/06/2025 às 12:33
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  M.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 0
+*Total:* R$ 29,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Nome do cliente extraído: Silva
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] WhatsApp do cliente extraído: 88994451891
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Matches encontrados pela regex: Array
+(
+    [0] => Array
+        (
+            [0] => *1 x* #REF-769
+            [1] => 1
+            [2] => 769
+        )
+
+)
+
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Item extraído: Quantidade = 1, Ref (do comprovante) = 769, Ref (para consulta DB) = REF-769
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] SQL para buscar produto: SELECT id, estoque, posicao FROM produtos WHERE ref = 'REF-769' AND rel_estabelecimentos_id = '186'
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Número de linhas encontradas para produto (ref: REF-769, eid: 186): 1
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Info do produto encontrado (ref: REF-769): Array
+(
+    [id] => 769
+    [estoque] => 2
+    [posicao] => 9
+)
+
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Produto 769 (ref: REF-769) com estoque '2'. Estoque atual (posicao): 9. Atualizando estoque para adicionar: 1
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] SQL para atualizar estoque: UPDATE produtos SET posicao = posicao + '1' WHERE id = '769'
+[27-Jun-2025 12:53:03 America/Sao_Paulo] [REEMBOLSO DEBUG] Estoque para produto ID 769 atualizado com sucesso. Linhas afetadas: 1
+[27-Jun-2025 12:58:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 12:58:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 12:58:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 12:58:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 12:58:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 12:58:38 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 528*
+------
+27/06/2025 às 12:25
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+(88) 99445-1891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* éFácil
+------
+
+*Frete:* R$ 1330.32
+*Total:* R$ 1.360,22
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 12:58:38 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+1) para produto ID 769
+[27-Jun-2025 13:01:56 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 13:01:56 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 13:01:56 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:01:56 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:01:56 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 13:01:56 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 531*
+------
+27/06/2025 às 13:01
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 39,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 13:01:56 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+1) para produto ID 769
+[27-Jun-2025 13:01:56 America/Sao_Paulo] [REEMBOLSO DEBUG] ❌ Variante não encontrada: Tamanhos/P.
+[27-Jun-2025 13:03:19 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 13:03:19 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 13:03:19 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:03:19 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:03:19 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 13:03:19 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 532*
+------
+27/06/2025 às 13:03
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 39,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 13:03:19 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+1) para produto ID 769
+[27-Jun-2025 13:03:19 America/Sao_Paulo] [REEMBOLSO DEBUG] ❌ Variante não encontrada: Tamanhos/P.
+[27-Jun-2025 13:05:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 13:05:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 13:05:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:05:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:05:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 13:05:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 533*
+------
+27/06/2025 às 13:05
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 39,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 13:05:51 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+1) para produto ID 769
+[27-Jun-2025 13:05:51 America/Sao_Paulo] [REEMBOLSO DEBUG] ❌ Variante não encontrada: Tamanhos/P.
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 533*
+------
+27/06/2025 às 13:05
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  P.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 39,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+1) para produto ID 769
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante atualizada: Tamanhos/P (+1)
+[27-Jun-2025 13:09:58 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variantes atualizadas em lote para produto ID 769
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 534*
+------
+27/06/2025 às 13:10
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  M.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 39,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+1) para produto ID 769
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante atualizada: Tamanhos/M (+1)
+[27-Jun-2025 13:10:51 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variantes atualizadas em lote para produto ID 769
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 535*
+------
+27/06/2025 às 13:11
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*2 x* #REF-769 Hambúrguer de Bacon Top
+*Tamanhos*:  G.
+*Valor:* R$ 59,80
+
+------
+*Subtotal:* R$ 59,80
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 69,80
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+2) para produto ID 769
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante atualizada: Tamanhos/G (+2)
+[27-Jun-2025 13:11:27 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variantes atualizadas em lote para produto ID 769
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 536*
+------
+27/06/2025 às 13:13
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*7 x* #REF-769 Hambúrguer de Bacon Top
+*Cor*:  Azul.
+*Valor:* R$ 209,30
+
+------
+*Subtotal:* R$ 209,30
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 219,30
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+7) para produto ID 769
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante atualizada: Cor/Azul (+7)
+[27-Jun-2025 13:13:29 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variantes atualizadas em lote para produto ID 769
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 1
+            [nome] => Administrado
+            [email] => admin@admin.com.br
+            [level] => 1
+            [status] => 1
+            [operacao] => 1
+            [estado] => 6
+            [cidade] => 705
+            [telefone] => 88996941286
+            [keepalive] => c968ddb219db04dcc55522ec7ffdb3ed
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 118
+        )
+
+)
+
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: *SHOP BURGER*
+Quadra 5 Conjunto E 7, Sobradinho
+(88) 99694-1286
+------
+*Pedido 537*
+------
+27/06/2025 às 13:15
+------
+
+*Nome:* 
+Silva 
+
+*CPF:* 
+807.492.083-68 
+
+*Email:* 
+admin@admin.com.br 
+
+*Whatsapp:* 
+88994451891 
+
+*Endereços:* 
+ Rua: Quadra 5 Conjunto E,  Nº: 25, CEP: 63030-000,  Complemento: casa, Referência: Arena
+
+*Forma de pagamento:* 
+Dinheiro - Troco para:  
+
+------
+*PRODUTOS* 
+------
+
+*1 x* #REF-769 Hambúrguer de Bacon Top
+*Cor*:  Preto.
+*Valor:* R$ 29,90
+
+------
+*Subtotal:* R$ 29,90
+*Entrega:* Quadra 5 Conjunto E
+------
+
+*Frete:* R$ 10
+*Total:* R$ 39,90
+------
+
+https://shopburger.digitavitrine.com.br
+
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Estoque geral atualizado (+1) para produto ID 769
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variante atualizada: Cor/Preto (+1)
+[27-Jun-2025 13:15:49 America/Sao_Paulo] [REEMBOLSO DEBUG] ✅ Variantes atualizadas em lote para produto ID 769
+[15-Jul-2025 09:09:59 America/Sao_Paulo] [REEMBOLSO DEBUG] Sessão não iniciada. Tentando iniciar session_start().
+[15-Jul-2025 09:09:59 America/Sao_Paulo] [REEMBOLSO DEBUG] Session status: 2
+[15-Jul-2025 09:09:59 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION no início de reembolsar: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 168
+            [nome] => Shop Burger 
+            [email] => cleiton@gmail.com
+            [level] => 2
+            [status] => 1
+            [operacao] => 2
+            [keepalive] => f0613d91ac1f97118639c2c2103b6d8b
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 2
+            [funcionalidade_disparador] => 2
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 99
+        )
+
+    [db_connected_logged] => 1
+    [verified_domain] => digitavitrine.com.br
+)
+
+[15-Jul-2025 09:09:59 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tecautov/public_html/_core/_includes/functions/user.php on line 5
+[15-Jul-2025 09:09:59 America/Sao_Paulo] [REEMBOLSO DEBUG] Conteúdo de $_SESSION APÓS include config: Array
+(
+    [user] => Array
+        (
+            [logged] => 1
+            [id] => 168
+            [nome] => Shop Burger 
+            [email] => cleiton@gmail.com
+            [level] => 2
+            [status] => 1
+            [operacao] => 2
+            [keepalive] => f0613d91ac1f97118639c2c2103b6d8b
+        )
+
+    [estabelecimento] => Array
+        (
+            [id] => 186
+            [avatar] => 
+            [perfil] => 186/2025/05/18451505250ifd2k3ck0.png
+            [nome] => Shop Burger
+            [subdominio] => shopburger
+            [logged] => 1
+            [level] => 2
+            [funcionalidade_disparador] => 2
+            [funcionalidade_marketplace] => 1
+            [funcionalidade_banners] => 1
+            [funcionalidade_variacao] => 1
+            [status] => 1
+            [status_force] => 2
+            [excluded] => 2
+            [expiracao] => 99
+        )
+
+    [db_connected_logged] => 1
+    [verified_domain] => digitavitrine.com.br
+)
+
+[15-Jul-2025 09:09:59 America/Sao_Paulo] [REEMBOLSO DEBUG] Valor de $eid (Estabelecimento ID) obtido da sessão: 186
+[15-Jul-2025 09:09:59 America/Sao_Paulo] [REEMBOLSO DEBUG] Texto do Comprovante: SHOP BURGER
+Pedido #589
+15/07/2025 às 09:07
+------
+Cliente: Vinicius Alves
+WhatsApp: (62) 99958-5364
+
+Entrega: Retirar no Local
+
+Forma de pagamento: Dinheiro (Valor Pago em Dinheiro: R$ 50,00)
+------
+* 1 x pizza a moda
+  
+  Variações:Gigante 35cm 12 fatias
+  
+  
+Valor: R$ 45,00
+------
+Subtotal: R$ 45,00
+Taxa de entrega: R$ 0,00
+Total: R$ 45,00
+
+Obrigado pela preferência!
+Volte sempre!
+[15-Jul-2025 09:09:59 America/Sao_Paulo] [REEMBOLSO DEBUG] ⚠️ Nenhum produto encontrado no comprovante.

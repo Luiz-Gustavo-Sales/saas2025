@@ -1,0 +1,256 @@
+/**
+ * Sistema de Proteção JavaScript Anti-Pirataria
+ * Verificação adicional no frontend
+ * 
+ * @version 2.0
+ */
+
+(function() {
+    'use strict';
+    
+    // Domínios autorizados (deve corresponder aos do PHP)
+    const AUTHORIZED_DOMAINS = [
+        'digitavitrine.com.br',
+        'catalogo.zfoxx.xyz', 
+        'catalogo145.shop'
+        // Adicione novos domínios aqui
+    ];
+    
+    // Configurações de segurança
+    const SECURITY_CONFIG = {
+        checkInterval: 3000, // Verifica a cada 3 segundos
+        blockDevTools: true,
+        blockRightClick: true,
+        obfuscateConsole: true,
+        maxViolations: 3
+    };
+    
+    let violationCount = 0;
+    
+    /**
+     * Verifica se o domínio atual está autorizado
+     */
+    function checkDomainAuthorization() {
+        const currentDomain = window.location.hostname.replace(/^www\./, '').toLowerCase();
+        
+        // Verifica correspondência exata ou subdomínio
+        return AUTHORIZED_DOMAINS.some(domain => {
+            return currentDomain === domain || currentDomain.endsWith('.' + domain);
+        });
+    }
+    
+    /**
+     * Bloqueia o acesso não autorizado
+     */
+    function blockUnauthorizedAccess() {
+        // Remove todo o conteúdo da página
+        document.documentElement.innerHTML = `
+            <html>
+            <head>
+                <meta charset="UTF-8">
+                <title>Acesso Negado</title>
+                <style>
+                    body { 
+                        margin: 0; 
+                        height: 100vh; 
+                        display: flex; 
+                        align-items: center; 
+                        justify-content: center; 
+                        background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+                        font-family: Arial, sans-serif;
+                        color: white;
+                    }
+                    .message { 
+                        text-align: center; 
+                        padding: 40px;
+                        background: rgba(0,0,0,0.3);
+                        border-radius: 15px;
+                        backdrop-filter: blur(10px);
+                    }
+                    h1 { font-size: 3em; margin-bottom: 20px; }
+                    p { font-size: 1.2em; line-height: 1.6; }
+                    .code { 
+                        font-family: monospace; 
+                        background: rgba(255,255,255,0.2); 
+                        padding: 10px; 
+                        border-radius: 5px; 
+                        margin: 20px 0;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="message">
+                    <h1>🚫 Acesso Negado</h1>
+                    <p>Este sistema possui licença ativa apenas para domínios autorizados.</p>
+                    <div class="code">Domínio: ${window.location.hostname}</div>
+                    <p>Entre em contato para adquirir uma licença.</p>
+                </div>
+            </body>
+            </html>
+        `;
+        
+        // Bloqueia execução de scripts
+        window.stop();
+        
+        // Redireciona após um tempo
+        setTimeout(() => {
+            window.location.href = 'about:blank';
+        }, 2000);
+    }
+    
+    /**
+     * Detecta e bloqueia ferramentas de desenvolvedor
+     */
+    function detectDevTools() {
+        if (!SECURITY_CONFIG.blockDevTools) return;
+        
+        // Detecta abertura do DevTools
+        let devtools = {
+            open: false,
+            orientation: null
+        };
+        
+        setInterval(() => {
+            if (window.outerHeight - window.innerHeight > 200 || 
+                window.outerWidth - window.innerWidth > 200) {
+                if (!devtools.open) {
+                    devtools.open = true;
+                    handleViolation('DevTools detectado');
+                }
+            } else {
+                devtools.open = false;
+            }
+        }, 500);
+        
+        // Bloqueia teclas de atalho comuns
+        document.addEventListener('keydown', function(e) {
+            // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+            if (e.key === 'F12' || 
+                (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) ||
+                (e.ctrlKey && e.key === 'U')) {
+                e.preventDefault();
+                e.stopPropagation();
+                handleViolation('Tentativa de acesso às ferramentas de desenvolvedor');
+                return false;
+            }
+        });
+    }
+    
+    /**
+     * Bloqueia menu de contexto (botão direito)
+     */
+    function blockRightClick() {
+        if (!SECURITY_CONFIG.blockRightClick) return;
+        
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            handleViolation('Tentativa de usar menu de contexto');
+            return false;
+        });
+    }
+    
+    /**
+     * Ofusca o console
+     */
+    function obfuscateConsole() {
+        if (!SECURITY_CONFIG.obfuscateConsole) return;
+        
+        // Sobrescreve métodos do console
+        const methods = ['log', 'debug', 'info', 'warn', 'error', 'assert', 'dir', 'dirxml', 'group', 'groupEnd', 'time', 'timeEnd', 'count', 'trace', 'profile', 'profileEnd'];
+        
+        methods.forEach(method => {
+            console[method] = function() {
+                return 'Console bloqueado - Sistema protegido';
+            };
+        });
+    }
+    
+    /**
+     * Manipula violações de segurança
+     */
+    function handleViolation(type) {
+        violationCount++;
+        
+        // Log da violação
+        console.warn(`[SECURITY] Violação detectada: ${type} (${violationCount}/${SECURITY_CONFIG.maxViolations})`);
+        
+        // Se exceder o limite, bloqueia
+        if (violationCount >= SECURITY_CONFIG.maxViolations) {
+            blockUnauthorizedAccess();
+        }
+    }
+    
+    /**
+     * Verifica integridade do DOM
+     */
+    function checkDOMIntegrity() {
+        // Verifica se elementos críticos foram removidos
+        const criticalElements = document.querySelectorAll('[data-domain-protected]');
+        if (criticalElements.length === 0 && document.body.hasAttribute('data-system-loaded')) {
+            handleViolation('Manipulação do DOM detectada');
+        }
+    }
+    
+    /**
+     * Inicializa o sistema de proteção
+     */
+    function initProtection() {
+        // Verifica autorização do domínio
+        if (!checkDomainAuthorization()) {
+            blockUnauthorizedAccess();
+            return;
+        }
+        
+        // Marca o sistema como carregado
+        document.body.setAttribute('data-system-loaded', 'true');
+        
+        // Adiciona proteções
+        detectDevTools();
+        blockRightClick();
+        obfuscateConsole();
+        
+        // Verifica periodicamente
+        setInterval(() => {
+            if (!checkDomainAuthorization()) {
+                blockUnauthorizedAccess();
+            }
+            checkDOMIntegrity();
+        }, SECURITY_CONFIG.checkInterval);
+        
+        // Adiciona elemento de proteção invisível
+        const protectionElement = document.createElement('div');
+        protectionElement.setAttribute('data-domain-protected', 'true');
+        protectionElement.style.display = 'none';
+        document.body.appendChild(protectionElement);
+    }
+    
+    /**
+     * Detecta mudanças na URL
+     */
+    function monitorURLChanges() {
+        let currentURL = window.location.href;
+        
+        setInterval(() => {
+            if (window.location.href !== currentURL) {
+                currentURL = window.location.href;
+                if (!checkDomainAuthorization()) {
+                    blockUnauthorizedAccess();
+                }
+            }
+        }, 1000);
+    }
+    
+    // Executa quando o DOM estiver pronto
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initProtection);
+    } else {
+        initProtection();
+    }
+    
+    // Monitor de mudanças de URL
+    monitorURLChanges();
+    
+    // Proteção contra modificação do script
+    Object.freeze(window);
+    
+})();

@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Permitir acesso direto aos arquivos na pasta garcom
+# Isso vai sobrescrever as regras do .htaccess da raiz para esta pasta
+
+# Se o arquivo existe, servir diretamente
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .* - [L]
+
+# Se o diretório existe, servir diretamente  
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .* - [L]
+
+# Para qualquer outra coisa, redirecionar para index.php desta pasta
+RewriteRule ^(.*)$ index.php [L,QSA]

@@ -1,0 +1,38 @@
+# --- Canonical & HTTPS ---
+RewriteEngine On
+
+# 1) Força HTTPS (se já estiver em HTTPS, não faz nada)
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2) Canoniza o host: força sem "www"
+RewriteCond %{HTTP_HOST} ^www\.cardapio24h\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://cardapio24h.com.br/$1 [L,R=301]
+
+# --- Base do site ---
+RewriteBase /
+
+# --- NÃO reescreve quando for diretório/arquivo existente ---
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# --- Roteamento especial: apenas para subdomínios em *.digitavitrine.com.br ---
+# (mantido do seu arquivo original; não afeta cardapio24h.com.br)
+RewriteCond %{HTTP_HOST} ^([a-z0-9-]+)\.digitavitrine\.com\.br$ [NC]
+RewriteRule (.*) index.php?insubdominio=%1&inrouter=$1 [NC,QSA,L]
+
+# --- 404 customizado ---
+ErrorDocument 404 /404.php
+
+# --- PHP Handler (mantém como está) ---
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+# --- Logs PHP ---
+php_flag  log_errors on
+php_value error_log "/home/u749530514/domains/cardapio24h.com.br/public_html/error_log"
